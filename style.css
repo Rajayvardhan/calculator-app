@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h4 {
+    /* top: 0px; */
+    /* margin-left: vw; */
+    font-size: 2rem;
+    color: rgb(224, 224, 224);
+
+
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(#283048,
+            #859398);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+
+}
+
+.container {
+    width: 350px;
+    height: 85vh;
+    border-radius: 14px;
+    background-color: #22252D;
+
+    margin-left: 20vw;
+    margin-top: 2vh;
+
+    transition: .3s ease-in-out;
+
+}
+
+.container:hover {
+    box-shadow: 4px 4px 30px rgba(0, 0, 1, 0.7);
+    border: #5e5c5c solid .5px;
+
+}
+
+form input {
+    width: 100%;
+    height: 150px;
+    border: none;
+    border-radius: 12px;
+    background-color: black;
+    font-size: 2rem;
+    padding: 1rem;
+    color: white;
+    text-align: right;
+    pointer-events: none;
+}
+
+button {
+    flex: 0 0 22%;
+    margin: 5px;
+    border: 1px solid black;
+    width: 60px;
+    height: 52px;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 22px;
+    margin-top: 10px;
+}
+
+.btnyellow {
+    background-color: rgb(245, 142, 66);
+    color: #fff;
+}
+
+.btngrey {
+    background-color: rgb(224, 224, 224);
+
+}
+
+.btnequal {
+    background-color: green;
+}
+
+.btncancel {
+    background-color: red;
+}
+
+.todo {
+    width: 20vw;
+    margin-right: 30vw;
+}
+
+.submit {
+    border-radius: 5px;
+    width: 60px;
+    font-size: 14px;
+    background: #c2d4daaf;
+    border-style: none;
+}
+
+.span {
+    border-radius: 7px;
+    background-color: #859398;
+    border: none;
+}
